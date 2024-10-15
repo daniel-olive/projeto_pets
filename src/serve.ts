@@ -23,7 +23,7 @@ serve.use(express.urlencoded({ extended: true }));
 serve.use(router);
 
 serve.use((req, res) => {
-    res.send("Página não encontrada!");
+    res.render("pages/404");
 });
 
 serve.listen(process.env.PORT);
