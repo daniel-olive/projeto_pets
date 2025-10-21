@@ -39,33 +39,18 @@ Siga os passos abaixo para executar o projeto em sua máquina.
 Pré-requisitos
 Você precisa ter o Node.js (versão 18 ou superior) instalado.
 
-Instale globalmente as dependências de desenvolvimento:
+Instale globalmente as dependências de desenvolvimento: `npm i -g nodemon typescript ts-node`
 
-Bash
-
-npm i -g nodemon typescript ts-node
 Instalação e Execução
-1 - Clone o repositório:
+1 - Clone o repositório: `git clone https://github.com/daniel-olive/projeto_pets.git`
 
-Bash
+2 - Navegue até o diretório do projeto: `cd projeto_pets`
 
-git clone https://github.com/daniel-olive/projeto_pets.git
-2 - Navegue até o diretório do projeto:
+3 - Instale as dependências do projeto: `npm install`
 
-Bash
+4 - Inicie o servidor em modo de desenvolvimento: `npm run dev`
 
-cd projeto_pets
-3 - Instale as dependências do projeto:
-
-Bash
-
-npm install
-4 - Inicie o servidor em modo de desenvolvimento:
-
-Bash
-
-npm run dev
-5 - Abra seu navegador e acesse http://localhost:4000 (ou a porta definida no seu ambiente).
+5 - Abra seu navegador e acesse `http://localhost:4000` (ou a porta definida no seu ambiente).
 
 # 📚 Arquitetura e Explicação do Código
 
@@ -85,7 +70,7 @@ O design do site é limpo e direto, focado na fácil navegação e visualizaçã
 
 A folha de estilo (public/css/style.css) contém media queries para garantir que o layout se ajuste bem em telas de diferentes tamanhos.
 
-<p align="center"> <img src="https://i.imgur.com/URL_DO_SEU_SCREENSHOT.png" alt="Screenshot do Projeto" width="700"> </p>
+<p align="center"> <img src="https://danieldev.com.br/images/PetDevShop.jpg" alt="Screenshot do Projeto" width="700"> </p>
 
 # 📄 Licença
 
